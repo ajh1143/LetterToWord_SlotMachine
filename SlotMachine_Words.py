@@ -54,5 +54,6 @@ def slot_machine(letters, wordlist):
             print("Fail")
     return None
 
+if __name__ == "__main__":
 userLetters, userWords = valid_words_generator()
 slot_machine(userLetters, userWords)
