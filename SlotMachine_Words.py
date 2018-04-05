@@ -52,6 +52,7 @@ def slot_machine(letters, wordlist):
         print(result)
         if result in wordlist:
             print("Success")
+            print("Try Again?\nPress Space to Pull the Lever\nPress Any Other Key to Quit")
             keypress = ord(getch())
             if keypress == 32:
                pass
